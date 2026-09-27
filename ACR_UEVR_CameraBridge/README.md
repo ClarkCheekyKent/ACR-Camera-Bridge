@@ -21,4 +21,4 @@ The Lua panel test also runs when the checkout contains `dependencies/lua/src`. 
 
 Close ACR, then run `install_example.bat "%APPDATA%\UnrealVRMod\acr"` to install the DLL and Lua panel. Restart ACR and inject the matching UEVR nightly. Leave UEVR headset tracking enabled. The plugin supplies a clean camera base automatically, including when Freeze Rotation is enabled.
 
-The resolver derives camera layout from reflection and validates the UpdateCamera target before hooking it. A game update can make resolution fail; the panel then reports Error. Resolver attribution is in `HEADTRACKING-LICENSE.txt`.
+The resolver derives camera layout from reflection and validates the UpdateCamera target before hooking it. A game update can make resolution fail; the panel then reports Error.
